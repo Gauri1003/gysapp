@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    tools:context=".LoginCus">
+
+    <TextView
+        android:id="@+id/tvSer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aladin"
+        android:text="@string/services"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnmech"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/mech"
+        android:layout_marginStart="10dp" />
+
+    <Button
+        android:id="@+id/btncarp"
+        android:layout_width="104dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-103dp"
+        android:background="@drawable/carpenter"
+        android:layout_marginStart="150dp" />
+
+    <Button
+        android:id="@+id/btnplum"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-103dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/plum" />
+
+    <TextView
+        android:id="@+id/tvmech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mechanics1"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvcarp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-33.5dp"
+        android:text="@string/carpenters"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp" />
+
+    <TextView
+        android:id="@+id/tvplum"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-32.5dp"
+        android:text="@string/plumbers"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnclean"
+        android:layout_width="104dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cleaner" />
+
+    <TextView
+        android:id="@+id/tvcalean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="@string/cleaners"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginStart="150dp" />
+
+
+
+</LinearLayout>
